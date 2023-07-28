@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700;800&family=Poppins&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5564e68a04.js" crossorigin="anonymous"></script>
     <!-- font family -->
     <style>
         .poppines {
@@ -42,15 +43,11 @@
                         </label>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a>Home</a></li>
+                            <li><a>Service</a></li>
+                            <li><a>Cases</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
                         </ul>
                     </div>
                     <a class="btn btn-ghost normal-case lg:text-xl"><img src="images/logo2.png" alt=""></a>
@@ -117,7 +114,7 @@
                 <img src="images/banner.png" alt="">
             </div>
             <div
-                class="relative lg:absolute bg-transparent flex flex-col items-center text-white translate-y-[-100%] lg:translate-x-[70%] lg:translate-y-[-150%]">
+                class="relative lg:absolute bg-transparent flex flex-col items-center text-white md:translate-y-[-150%] translate-y-[-100%] transalte-x-[40%] md:translate-x-[0%] lg:translate-x-[50%] lg:translate-y-[-150%]">
                 <h1 class="geramond font-extrabold text-2xl lg:text-7xl">We Provide Effective <br> Legal Solutions</h1>
                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br>
                     suffered
@@ -447,8 +444,49 @@
 
         </section>
     </main>
-    <footer>
+    <footer class="bg-black">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-20 py-20 gap-10">
+            <div class="flex flex-col">
+                <div>
+                    <img src="images/logo.png" alt="">
+                </div>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration in some form,
+                    by injected humour.</p>
+            </div>
 
+            <div class="flex flex-col list-none">
+                <h1 class="text-2xl text-white font-extrabold geramond">Usefull Link</h1>
+                <li>Homes</li>
+                <li>About Us</li>
+                <li>Cases</li>
+                <li>Blog</li>
+                <li> Contact Us</li>
+            </div>
+
+            <div class="flex flex-col">
+                <h1 class="text-2xl text-white font-extrabold geramond">Contact Now</h1>
+                <div class="flex flex-col gap-3">
+                    <p>555 4th 5t NW, Washington <br>
+                        DC 20530, United States</p>
+
+                    <p>+88 01750 000 000 <br>
+                        +88 01750 000 000</p>
+                    <p>info@gmail.com <br>
+                        info@gmail.com</p>
+                </div>
+            </div>
+            <div class="flex flex-col">
+                <h1 class="text-2xl text-white font-extrabold geramond">Subscribe</h1>
+                <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                <div class="flex gap-3 justify-center">
+                    <input class="p-3 bg-white text-gray-500 text-xl" type="email" name="" id=""
+                        placeholder="Your Email">
+                    <button class="btn bg-[#B68C5A] p-4 border-none"><i
+                            class="fa-regular fa-paper-plane text-white w-[24] h-[24]"></i></button>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
